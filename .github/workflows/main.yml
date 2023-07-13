@@ -1,6 +1,7 @@
 name: Demo test
 
-on: [push]
+on: workflow_dispatch
+    
 
 
 jobs:
