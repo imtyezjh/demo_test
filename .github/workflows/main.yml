@@ -1,0 +1,13 @@
+name: Demo test
+
+on: [push]
+
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - id: Test
+        run: echo "Demo test"
+  
